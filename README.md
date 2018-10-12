@@ -13,14 +13,14 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: ![](GIFs/XSSInYoutubeURLEmbeds.gif)
   - [ ] Steps to recreate:
-		- From the wordpress admin panel, create a new post
-		- Within the post, insert the following malicious youtube embed url,
-			[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]	
-		- Next publish this post
-		- After publishing, when the post is viewed the alert is triggered
-		- Reference used: [Link 1] https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
+	- From the wordpress admin panel, create a new post
+	- Within the post, insert the following malicious youtube embed url,
+		[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]	
+	- Next publish this post
+	- After publishing, when the post is viewed the alert is triggered
+	- Reference used: [Link 1] (https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
   - [ ] Affected source code:
-    - [Link 2] https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8
+    - [Link 2] (https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 	
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
