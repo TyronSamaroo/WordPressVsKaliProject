@@ -41,10 +41,12 @@ Time spent: **X** hours spent in total
   - [X] Steps to recreate:
 	- From the wordpress admin panel, create a new post
 	- Within the post, insert the following payload,
-		TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a>
+	
+	`TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a>`
+	
 	- Next publish and view the post
 	- While viewing the post, whenever the mouse hovers over the "Click me", the alert is triggered
-	- Reference used: [Link 3] (https://wpvulndb.com/vulnerabilities/8186)
+	- Reference used: [Link 3](https://wpvulndb.com/vulnerabilities/8186)
   - [X] Affected source code:
     - [Link 4](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
 	
