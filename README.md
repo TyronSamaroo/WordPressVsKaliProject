@@ -15,7 +15,9 @@ Time spent: **X** hours spent in total
   - [X] Steps to recreate:
 	- From the wordpress admin panel, create a new post
 	- Within the post, insert the following malicious youtube embed url,
-		[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]	
+	
+	`[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]`	
+	
 	- Next publish this post
 	- After publishing, when the post is viewed the alert is triggered
 	- Reference used: [Link 1](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
