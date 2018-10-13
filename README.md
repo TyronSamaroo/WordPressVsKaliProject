@@ -11,7 +11,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [X] GIF Walkthrough: ![](GIFs/XSSInYoutubeURLEmbeds.gif)
+  - [X] GIF Walkthrough: ![](https://i.imgur.com/lKyH5SQ.gif)
   - [X] Steps to recreate:
 	- From the wordpress admin panel, create a new post
 	- Within the post, insert the following malicious youtube embed url,
@@ -39,7 +39,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.5
-  - [ ] GIF Walkthrough: 
+  - [X] GIF Walkthrough: ![](https://i.imgur.com/dUa6mac.gif)
   - [X] Steps to recreate:
 	- From the wordpress admin panel, create a new post
 	- Within the post, insert the following payload,
