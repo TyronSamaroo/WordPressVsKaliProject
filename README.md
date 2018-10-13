@@ -13,7 +13,7 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.13
   - [X] GIF Walkthrough: ![](https://i.imgur.com/lKyH5SQ.gif)
   - [X] Steps to recreate:
-	- From the wordpress admin panel, create a new post
+	- From the WordPress admin panel, create a new post
 	- Within the post, insert the following malicious youtube embed url,
 	
 	`[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]`	
@@ -41,13 +41,13 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.5
   - [X] GIF Walkthrough: ![](https://i.imgur.com/dUa6mac.gif)
   - [X] Steps to recreate:
-	- From the wordpress admin panel, create a new post
+	- From the WordPress admin panel, create a new post
 	- Within the post, insert the following payload,
 	
 	`TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a>`
 	
 	- Next publish and view the post
-	- While viewing the post, whenever the mouse hovers over the "Click me", the alert is triggered
+	- While viewing the post, whenever the mouse hovers over "Click me", the alert is triggered
 	- Reference used: [Link 3](https://wpvulndb.com/vulnerabilities/8186)
   - [X] Affected source code:
     - [Link 4](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
@@ -57,10 +57,18 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [X] GIF Walkthrough: ![](https://i.imgur.com/ZBb1hvq.gif) 
+  - [X] Steps to recreate:
+	- From the WordPress admin panel, create a new post
+	- Within the post, insert the following code,
+	
+	`<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>`
+	
+	- Next publish and view the post
+	- While viewing the post, whenever the mouse hovers over "link", the alert is triggered
+	- Reference used: [Link 4](https://wpvulndb.com/vulnerabilities/8111)  
+  - [X] Affected source code:
+    - [Link 5](https://core.trac.wordpress.org/changeset/33359)
 
 5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
