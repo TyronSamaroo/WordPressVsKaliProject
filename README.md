@@ -7,7 +7,7 @@ Time spent: **X** hours spent in total
 ## Pentesting Report
 
 1. (Required) WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
-  - [X] Summary: In WordPress, there is a XSS vulnerability in YouTube URL Embeds 
+  - [X] Summary: "XSS attack using YouTube URL Embeds" ([CVE Reference Link](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6817))
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
@@ -23,10 +23,9 @@ Time spent: **X** hours spent in total
 	- Reference used: [Link 1](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
   - [X] Affected source code:
     - [Link 2](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
-	- [CVE Link](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6817)
 	
 2. (Required) WordPress <= 4.3 - Authenticated Shortcode Tags Cross-Site Scripting (XSS)
-  - [X] Summary: 
+  - [X] Summary: "Attackers can use the mishandling of unclosed HTML elements during processing of shortcode tags to inject web scripts or HTML" ([CVE Link](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5714))
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.5
@@ -42,7 +41,6 @@ Time spent: **X** hours spent in total
 	- Reference used: [Link 3](https://wpvulndb.com/vulnerabilities/8186)
   - [X] Affected source code:
     - [Link 4](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
-
 	
 3. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [X] Summary: 
