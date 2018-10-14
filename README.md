@@ -80,12 +80,10 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.6
   - [X] GIF Walkthrough: ![](https://i.imgur.com/YEKGgEe.gif)
-  - [ ] Steps to recreate:
+  - [X] Steps to recreate:
 	- From the WordPress admin panel, create a new post
 	- Within the post, enter a web address with `?theme=<svg onload=alert(1)>` at the end. For example,
-	
-	`http://www.example.com?theme=<svg onload=alert(1)>`
-	
+		`http://www.example.com?theme=<svg onload=alert(1)>`
 	- Next publish this post
 	- After publishing, when the post is viewed the alert is triggered
   	- Reference used: [Link 1](https://wpvulndb.com/vulnerabilities/8358)
