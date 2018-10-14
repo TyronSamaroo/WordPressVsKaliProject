@@ -23,6 +23,7 @@ Time spent: **X** hours spent in total
 	- Reference used: [Link 1](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
   - [X] Affected source code:
     - [Link 2](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
+
 	
 2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
@@ -33,6 +34,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
 	
 3. (Required) WordPress <= 4.3 - Authenticated Shortcode Tags Cross-Site Scripting (XSS)
   - [X] Summary: 
@@ -51,6 +53,7 @@ Time spent: **X** hours spent in total
 	- Reference used: [Link 3](https://wpvulndb.com/vulnerabilities/8186)
   - [X] Affected source code:
     - [Link 4](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
+
 	
 4. (Optional) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [X] Summary: 
@@ -70,15 +73,24 @@ Time spent: **X** hours spent in total
   - [X] Affected source code:
     - [Link 5](https://core.trac.wordpress.org/changeset/33359)
 
-5. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+	
+5. (Optional) WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
+  - [X] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.6
+  - [X] GIF Walkthrough: ![](https://i.imgur.com/YEKGgEe.gif)
+  - [ ] Steps to recreate:
+	- From the WordPress admin panel, create a new post
+	- Within the post, enter a web address with `?theme=<svg onload=alert(1)>` at the end. For example,
+	
+	`http://www.example.com?theme=<svg onload=alert(1)>`
+	
+	- Next publish this post
+	- After publishing, when the post is viewed the alert is triggered
+  	- Reference used: [Link 1](https://wpvulndb.com/vulnerabilities/8358)
+  - [X] Affected source code:
+    - [Link 1](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87) 
 
 ## Assets
 
