@@ -23,20 +23,8 @@ Time spent: **X** hours spent in total
 	- Reference used: [Link 1](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
   - [X] Affected source code:
     - [Link 2](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
-
 	
-2. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-	
-3. (Required) WordPress <= 4.3 - Authenticated Shortcode Tags Cross-Site Scripting (XSS)
+2. (Required) WordPress <= 4.3 - Authenticated Shortcode Tags Cross-Site Scripting (XSS)
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -55,7 +43,7 @@ Time spent: **X** hours spent in total
     - [Link 4](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
 
 	
-4. (Optional) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+3. (Optional) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -69,12 +57,12 @@ Time spent: **X** hours spent in total
 	
 	- Next publish and view the post
 	- While viewing the post, whenever the mouse hovers over "link", the alert is triggered
-	- Reference used: [Link 4](https://wpvulndb.com/vulnerabilities/8111)  
+	- Reference used: [Link 5](https://wpvulndb.com/vulnerabilities/8111)  
   - [X] Affected source code:
-    - [Link 5](https://core.trac.wordpress.org/changeset/33359)
+    - [Link 6](https://core.trac.wordpress.org/changeset/33359)
 
 	
-5. (Optional) WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
+4. (Optional) WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -86,14 +74,20 @@ Time spent: **X** hours spent in total
 		`http://www.example.com?theme=<svg onload=alert(1)>`
 	- Next publish this post
 	- After publishing, when the post is viewed the alert is triggered
-  	- Reference used: [Link 1](https://wpvulndb.com/vulnerabilities/8358)
+  	- Reference used: [Link 7](https://wpvulndb.com/vulnerabilities/8358)
   - [X] Affected source code:
-    - [Link 1](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87) 
+    - [Link 8](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87) 
 
-## Assets
-
-List any additional assets, such as scripts or files
-
+5. (Required) Vulnerability Name or ID
+  - [ ] Summary: 
+    - Vulnerability types:
+    - Tested in version:
+    - Fixed in version: 
+  - [ ] GIF Walkthrough: 
+  - [ ] Steps to recreate: 
+  - [ ] Affected source code:
+    - [Link 9](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)	
+	
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
@@ -107,7 +101,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Kevin Shah]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
