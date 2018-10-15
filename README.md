@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **8** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -43,7 +43,7 @@ Time spent: **X** hours spent in total
     - [Link 4](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
 	
 3. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
-  - [X] Summary: "XSS attack using carefully crafted shortcode inside an HTML element"([CVE Reference Link](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622))
+  - [X] Summary: "XSS attack using carefully crafted shortcode inside an HTML element" ([CVE Reference Link](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622))
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
@@ -62,7 +62,7 @@ Time spent: **X** hours spent in total
 
 	
 4. (Optional) WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
-  - [X] Summary: "XSS attack using template name"([CVE Reference Link](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1564))
+  - [X] Summary: "XSS attack using template name" ([CVE Reference Link](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1564))
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.6
