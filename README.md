@@ -98,6 +98,8 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while doing the work
 
+None
+
 ## License
 
     Copyright [2018] [Kevin Shah]
