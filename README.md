@@ -62,7 +62,7 @@ Time spent: **X** hours spent in total
 
 	
 4. (Optional) WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
-  - [X] Summary: 
+  - [X] Summary: "XSS attack using template name"([CVE Reference Link](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1564))
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.6
